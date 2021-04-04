@@ -259,7 +259,7 @@ class PollenKollCard  extends LitElement {
       dict.day3 = hass.states[`sensor.${allergenReplaced}_${city}_day_2`]
 
       if (dict.day1.state == "unknown" || dict.day2.state == "unknown" || dict.day3.state == "unknown") {
-        var log_text = `A sensor for "${allergens[i]}" (sensor.${allergenReplaced}_${city}_day_0) is returning unknown, you should probably check your config for that sensor in the custom component.`;
+        var log_text = `A sensor for "${element.allergen_locale}" is returning unknown, you should probably check your config for that sensor in the custom component.`;
         console.log(log_text)
       }
 
