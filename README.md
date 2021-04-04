@@ -4,7 +4,6 @@ A Lovelace custom card for [custom component pollenniva](https://github.com/Tekn
 <b>To use this card you have to have `value_as_text` has to be false.</b>
 
 ## Installation
-This card requires [card-tools](https://github.com/thomasloven/lovelace-card-tools) to be installed.
 
 For installation instructions [see this guide](https://github.com/thomasloven/hass-config/wiki/Lovelace-Plugins).
 
