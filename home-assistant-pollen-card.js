@@ -285,5 +285,7 @@ class PollenKollCard  extends LitElement {
   }
 }
 
+class HAPC extends PollenKollCard {} ;
+customElements.define('home-assistant-pollen-card', HAPC);
 customElements.define('pollenkoll-card', PollenKollCard);
   
