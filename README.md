@@ -1,6 +1,9 @@
 # home-assistant-pollen-card
 A Lovelace custom card for [custom component pollenniva](https://github.com/TekniskSupport/home-assistant-scrape-pollen/) in Home Assistant.
 
+### Deprecation notice, recomend using:
+[https://github.com/isabellaalstrom/lovelace-pollenprognos-card](https://github.com/isabellaalstrom/lovelace-pollenprognos-card) as alternative
+
 <b>To use this card you have to have `value_as_text` has to be false.</b>
 
 ## Installation
